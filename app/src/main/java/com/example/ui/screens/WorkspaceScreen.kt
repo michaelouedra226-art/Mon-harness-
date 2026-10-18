@@ -32,8 +32,8 @@ import androidx.compose.material.icons.filled.Code
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.FileDownload
 import androidx.compose.material.icons.filled.FileUpload
+import androidx.compose.material.icons.automirrored.filled.InsertDriveFile
 import androidx.compose.material.icons.filled.Folder
-import androidx.compose.material.icons.filled.InsertDriveFile
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Save
 import androidx.compose.material3.AlertDialog
@@ -383,7 +383,7 @@ fun WorkspaceFileRow(
                 modifier = Modifier.weight(1f)
             ) {
                 Icon(
-                    imageVector = if (file.isDirectory) Icons.Default.Folder else Icons.Default.InsertDriveFile,
+                    imageVector = if (file.isDirectory) Icons.Default.Folder else Icons.AutoMirrored.Filled.InsertDriveFile,
                     contentDescription = null,
                     tint = if (file.isDirectory) TechCyan else NeonEmerald,
                     modifier = Modifier.size(20.dp)

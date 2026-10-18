@@ -28,11 +28,11 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ListAlt
 import androidx.compose.material.icons.automirrored.filled.Send
 import androidx.compose.material.icons.filled.AutoAwesome
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.DeleteSweep
-import androidx.compose.material.icons.filled.ListAlt
 import androidx.compose.material.icons.filled.Psychology
 import androidx.compose.material.icons.filled.Security
 import androidx.compose.material3.CircularProgressIndicator
@@ -169,7 +169,7 @@ fun ChatScreen(
                         onClick = { viewModel.isPlanMode.value = !isPlanMode },
                         label = { Text(if (isPlanMode) "Mode Plan [Actif]" else "Mode Direct", fontSize = 11.sp) },
                         leadingIcon = {
-                            Icon(Icons.Default.ListAlt, contentDescription = null, modifier = Modifier.size(14.dp))
+                            Icon(Icons.AutoMirrored.Filled.ListAlt, contentDescription = null, modifier = Modifier.size(14.dp))
                         },
                         colors = FilterChipDefaults.filterChipColors(
                             selectedContainerColor = TechCyan.copy(alpha = 0.2f),
@@ -405,7 +405,7 @@ fun ChatMessageItem(message: ChatMessageEntity) {
             Icon(
                 imageVector = when {
                     isUser -> Icons.Default.AutoAwesome
-                    isPlan -> Icons.Default.ListAlt
+                    isPlan -> Icons.AutoMirrored.Filled.ListAlt
                     else -> Icons.Default.Psychology
                 },
                 contentDescription = null,

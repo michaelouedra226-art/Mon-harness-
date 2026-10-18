@@ -1,6 +1,6 @@
 {
-  "summary": "Plan d'implémentation pour le workflow GitHub Actions de compilation automatisée des APKs Debug et Release d'Hermes Mobile.",
-  "updatedAt": "2026-10-18T21:12:59.151394968Z",
+  "summary": "Plan de correction pour l'erreur Robolectric DefaultSdkProvider (API 34) et le nettoyage des avertissements Kotlin/Compose en CI.",
+  "updatedAt": "2026-10-18T21:40:18.935607064Z",
   "requestFeedback": true,
   "userFacing": true
 }
