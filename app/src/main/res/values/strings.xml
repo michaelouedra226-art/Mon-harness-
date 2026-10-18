@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hermes Mobile</string>
+    <string name="tab_chat">Agent</string>
+    <string name="tab_workspace">Fichiers</string>
+    <string name="tab_preview">Preview</string>
+    <string name="tab_memory">Mémoire &amp; Skills</string>
+    <string name="tab_settings">Modèles IA</string>
+</resources>

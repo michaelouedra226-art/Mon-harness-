@@ -1,0 +1,6 @@
+{
+  "name": "Hermes Mobile",
+  "description": "Agent de codage autonome avec intégration OpenAI dynamique, gestion de workspace, diffs et live preview.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
